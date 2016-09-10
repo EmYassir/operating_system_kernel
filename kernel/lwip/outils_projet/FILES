@@ -1,0 +1,5 @@
+cc.h        \\
+sys_arch.h    ==>> implémentations de référence pour linux
+sys_arch.c  //
+
+includes_lwip.txt : liste des includes non présents dans le dossier (string.h, etc)

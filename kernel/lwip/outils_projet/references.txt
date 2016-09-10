@@ -1,0 +1,44 @@
+Sources de références :
+-----------------------
+
+
+Interface PCI carte réseau :
+----------------------------
+
+http://ensiwiki.ensimag.fr/index.php/Projet_syst%C3%A8me_PC_:_2011_-_Mathieu_Couette,_Lucas_Toulouse,_Antoine_Ubrich#Carte_PCI
+
+http://wiki.osdev.org/PCI
+
+http://wiki.osdev.org/Intel_8254x
+
+Liste des constructeurs PCI : http://www.pcidatabase.com/vendors.php?sort=id
+
+
+Ethernet :
+----------
+
+squelette d'implémentation dans src/netif/ethernetif.c
+
+
+Makefile lwIP :
+---------------
+
+http://lwip.wikia.com/wiki/LwIP_makefiles
+
+
+Configuration lwIP :
+--------------------
+
+fichiers cc.h et sys_arch.c/.h, aide dans doc/sys_arch.txt
+
+http://lwip.wikia.com/wiki/Porting_for_an_OS
+
+
+Application réseau :
+--------------------
+
+http://lwip.wikia.com/wiki/LwIP_with_or_without_an_operating_system
+
+http://lwip.wikia.com/wiki/Category:LwIP_Application_Developers_Manual
+
+doc/rawapi.txt

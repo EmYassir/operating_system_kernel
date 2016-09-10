@@ -1,0 +1,7 @@
+modprobe kvm && modprobe kvm-intel
+if [ $1 = "gdb" ]
+then
+   kvm -kernel kernel/kernel.bin -s -S -gdb tcp::1234 -net nic,model=e1000 -net dump,vlan=0,file=/tmp/qemu_net
+else
+   kvm -kernel kernel/kernel.bin -net nic,model=e1000 -net dump,vlan=0,file=/tmp/qemu_net
+fi
