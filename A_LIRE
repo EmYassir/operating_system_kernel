@@ -193,3 +193,4 @@ Allocateur de mémoire pour les processus utilisateurs. Gère un tas localisé aprè
 l'espace des programmes utilisateurs. Attention, comme les allocateurs kernel, il
 ne supporte pas des appels simultanés par des threads concurrents. Il est
 nécessaire de synchroniser les accès concurrents.
+
